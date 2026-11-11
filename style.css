@@ -1,0 +1,67 @@
+
+.game-zone {
+  padding: 25px;
+}
+
+.game-card {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid #00ffd5;
+  border-radius: 20px;
+  background: linear-gradient(135deg,
+    rgba(0,255,200,.12),
+    rgba(10,15,40,.95));
+  box-shadow: 0 0 25px #00ffd522;
+  transition: .35s;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 35px #00ffd566;
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.game-tag {
+  display: inline-block;
+  color: #00ffd5;
+  margin-top: 15px;
+  letter-spacing: 3px;
+}
+
+.game-card h2 {
+  color: #00ffd5;
+  text-shadow: 0 0 15px #00ffd5;
+}
+
+.game-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.download-btn,
+.play-btn {
+  padding: 13px 22px;
+  border-radius: 12px;
+  border: 1px solid #00ffd5;
+  background: #031b20;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.download-btn:hover,
+.play-btn:hover {
+  background: #00ffd5;
+  color: #00110e;
+  box-shadow: 0 0 25px #00ffd5;
+}
